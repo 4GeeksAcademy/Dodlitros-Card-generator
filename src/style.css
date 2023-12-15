@@ -1,1 +1,57 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    background-color: green;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    
+}
+.contenedor{
+    display: grid;
+    justify-items: center;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 325px;
+    box-shadow: 10px 10px ;
+    margin-top: 25vh;
+}
+.pinta{
+    font-size: 75px;
+}
+#numero{
+    display: flex;
+    font-size: 5em;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 4px 4px rgba(0,0,0,0.48);;
+}
+div#bottom.pinta{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    text-shadow: 7px 4px 4px rgba(255, 0, 0, 0.5);
+}
+div#top.pinta{
+    display: flex;
+    margin-left: 10px;
+    text-shadow: 7px 4px 4px rgba(255, 0, 0, 0.5);
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 50px;
+    border: 3px solid black;
+    width: 75px;
+    height: 75px ;
+
+    border-radius: 40px;
+    box-shadow: 5px 5px;
+}
